@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Fargo Lot",
+    "coordinates": [43.003543, -78.785292],
+    "capacity": 200,
+    "occupancyRates": {
+      "08:00": 0.7,
+      "09:00": 0.85,
+      "10:00": 0.6
+    }
+  },
+  {
+    "id": 2,
+    "name": "Jarvis A Lot",
+    "coordinates": [43.002971, -78.784382],
+    "capacity": 150,
+    "occupancyRates": {
+      "08:00": 0.5,
+      "09:00": 0.65,
+      "10:00": 0.4
+    }
+  },
+  {
+    "id": 3,
+    "name": "Governors Lot",
+    "coordinates": [43.000275, -78.784801],
+    "capacity": 250,
+    "occupancyRates": {
+      "08:00": 0.8,
+      "09:00": 0.9,
+      "10:00": 0.75
+    }
+  }
+]
