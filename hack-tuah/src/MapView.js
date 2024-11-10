@@ -82,7 +82,6 @@ const MapView = ({ parkingLots, classLocation }) => {
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
       {parkingLots.map((lot, index) => {
-        console.log('Parking lot:', lot);
         let icon;
         const occupancyRate = lot.occupancy; // Assuming occupancy is between 0 and 1
 
