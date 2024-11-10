@@ -8,16 +8,12 @@
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Demo](#demo)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [API Endpoints](#api-endpoints)
 - [Data Sources](#data-sources)
 - [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -37,10 +33,6 @@
 - **Interactive Map**: Utilizes an interactive map with markers and popups for enhanced user experience.
 - **Google Maps Integration**: Includes links to navigate to parking lots and class locations via Google Maps.
 
-## Demo
-
-[Include a link to a live demo or screenshots of the application]
-
 ## Technologies Used
 
 - **Frontend**:
@@ -59,69 +51,11 @@
   - haversine-distance (for calculating distances between coordinates)
   - CSS for styling
 
-## Installation
-
-Follow these steps to set up the project locally:
-
 ### Prerequisites
 
 - Node.js and npm installed on your machine.
 - An OpenRouteService API key. You can obtain one by signing up at [OpenRouteService](https://openrouteservice.org/dev/#/signup).
-
-### Steps
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/your-username/campus-parking-finder.git
-   cd campus-parking-finder
-   ```
-
-2. **Install Backend Dependencies**
-
-   ```bash
-   cd backend
-   npm install
-   ```
-
-3. **Install Frontend Dependencies**
-
-   ```bash
-   cd ../frontend
-   npm install
-   ```
-
-4. **Set Up Environment Variables**
-
-   - **Backend**:
-
-     - Create a `.env` file in the `backend` directory.
-     - Add any necessary environment variables (if applicable).
-
-   - **Frontend**:
-
-     - Create a `.env` file in the `frontend` directory.
-     - Add your OpenRouteService API key:
-
-       ```
-       REACT_APP_ORS_API_KEY=your_openrouteservice_api_key_here
-       ```
-
-5. **Start the Backend Server**
-
-   ```bash
-   cd ../backend
-   node server.js
-   ```
-
-6. **Start the Frontend Development Server**
-
-   ```bash
-   cd ../frontend
-   npm start
-   ```
-
-   The application should now be running at `http://localhost:3000`.
+- please don't use my API key i will be sad :(
 
 ## Usage
 
@@ -229,36 +163,6 @@ campus-parking-finder/
 - **Public Transportation Options**: Provide alternative routes and suggestions using campus shuttles or public transit.
 - **Mobile App**: Develop a mobile application for on-the-go access.
 - **Accessibility Improvements**: Enhance the application for users with disabilities.
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. **Fork the Repository**
-
-2. **Create a Feature Branch**
-
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-
-3. **Commit Your Changes**
-
-   ```bash
-   git commit -m "Add your message here"
-   ```
-
-4. **Push to the Branch**
-
-   ```bash
-   git push origin feature/YourFeature
-   ```
-
-5. **Open a Pull Request**
-
-## License
-
-[MIT License](LICENSE)
 
 ## Acknowledgments
 
